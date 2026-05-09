@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Button from './Button';
 import { Menu, X } from 'lucide-react';
-import { getAssetPath } from '../utils/pathHelper';
+import { getAssetPath } from '../../utils/pathHelper';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
