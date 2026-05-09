@@ -75,6 +75,18 @@ const Projects = () => {
       theme: 'blue'
     },
     {
+      title: 'Stackup Tech',
+      category: 'PORTFOLIO',
+      description: 'A premium, high-performance developer portfolio featuring 3D animations, GSAP interactions, and a cinematic dark/gold theme.',
+      tech: ['Next.js', 'Three.js', 'GSAP', 'Tailwind CSS'],
+      features: ['3D Hero Scene', 'Smooth Parallax', 'Responsive Design', 'Glassmorphism UI', 'Modern Animations'],
+      demoLink: 'https://stackuptech.vercel.app',
+      githubLink: 'https://github.com/akshaii7/stackuptech',
+      image: '/stackup_logo.png',
+      isCustomLayout: true,
+      theme: 'gold'
+    },
+    {
       title: 'FinTech Mobile App',
       category: 'Mobile App',
       description: 'Secure personal finance tracking application with real-time banking API integrations.',
