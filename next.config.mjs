@@ -1,3 +1,5 @@
+const isProd = process.env.NODE_ENV === 'production';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -5,8 +7,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/stackuptech',
-  assetPrefix: '/stackuptech',
+  basePath: isProd ? '/stackuptech' : '',
+  assetPrefix: isProd ? '/stackuptech' : '',
 };
 
 export default nextConfig;
