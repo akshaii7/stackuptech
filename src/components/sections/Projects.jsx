@@ -80,7 +80,7 @@ const Projects = () => {
       description: 'A premium, high-performance developer portfolio featuring 3D animations, GSAP interactions, and a cinematic dark/gold theme.',
       tech: ['Next.js', 'Three.js', 'GSAP', 'Tailwind CSS'],
       features: ['3D Hero Scene', 'Smooth Parallax', 'Responsive Design', 'Glassmorphism UI', 'Modern Animations'],
-      demoLink: 'https://stackuptech.vercel.app',
+      demoLink: 'https://akshaii7.github.io/stackuptech/',
       githubLink: 'https://github.com/akshaii7/stackuptech',
       image: '/stackup_logo.png',
       isCustomLayout: true,
