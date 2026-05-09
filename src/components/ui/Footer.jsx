@@ -1,4 +1,5 @@
 import React from 'react';
+import { getAssetPath } from '../utils/pathHelper';
 
 const TwitterIcon = ({ size = 18 }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -38,7 +39,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 sm:gap-16 mb-12 sm:mb-16">
           <div className="sm:col-span-2">
             <a href="#" className="block mb-6">
-              <img src="/stackup_logo.png" alt="Stackup Tech Logo" className="h-10 sm:h-16 md:h-20 w-auto object-contain mix-blend-screen" />
+              <img src={getAssetPath('/stackup_logo.png')} alt="Stackup Tech Logo" className="h-10 sm:h-16 md:h-20 w-auto object-contain mix-blend-screen" />
             </a>
             <p className="text-white/60 max-w-sm mb-8 text-sm sm:text-base leading-relaxed">
               We build scalable web applications, craft digital experiences, and architect cloud solutions that empower businesses to grow and succeed.

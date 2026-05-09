@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Button from './Button';
 import { Menu, X } from 'lucide-react';
+import { getAssetPath } from '../utils/pathHelper';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -62,7 +63,7 @@ const Navbar = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-[#FFD700] blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-500 rounded-full scale-150"></div>
             <img 
-              src="/stackup_logo.png" 
+              src={getAssetPath('/stackup_logo.png')} 
               alt="Stackup Tech Logo" 
               className="h-12 sm:h-14 md:h-16 lg:h-20 w-auto object-contain relative z-10 mix-blend-screen" 
             />
